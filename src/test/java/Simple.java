@@ -6,4 +6,8 @@ public class Simple {
     public void example(){
         Assertions.assertTrue(9<=0);
     }
+    @Test
+    public void example1(){
+        Assertions.assertTrue(1<4);
+    }
 }
