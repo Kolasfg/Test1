@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 public class Simple {
     @Test
     public void example(){
-        Assertions.assertTrue(0<=0);
+        Assertions.assertFalse(0<=0);
     }
     @Test
     public void example1(){
