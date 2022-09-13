@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 public class Simple {
     @Test
     public void example(){
-        Assertions.assertTrue(9<=0);
+        Assertions.assertTrue(7<=0);
     }
     @Test
     public void example1(){
-        Assertions.assertTrue(1<4);
+        Assertions.assertTrue(9<4);
     }
 }
